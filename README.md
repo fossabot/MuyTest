@@ -13,7 +13,7 @@ Example android with MVVM and Retrofit with Room, architecture repository with c
 Clone this repository and import into **Android Studio**
 
 ```bash
-git clone https://github.com/andresbelt/ExampleZemoga.git
+git clone https://github.com/andresbelt/MuyTest.git
 ```
 
 ## Test
