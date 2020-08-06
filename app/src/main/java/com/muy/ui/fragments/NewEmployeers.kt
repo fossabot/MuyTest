@@ -136,15 +136,6 @@ class NewEmployeers : BaseFragment<FragmentWorkersBinding>(){
         return false
     }
 
-    private fun dismissLoadingView() {
-   //     getViewDataBinding().pbLoading.toGone()
-    }
-
-
-    private fun showLoadingView() {
-       // getViewDataBinding().pbLoading.toVisible()
-    }
-
 
     override val layoutId: Int
         get() = R.layout.fragment_workers
