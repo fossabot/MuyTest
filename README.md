@@ -24,11 +24,10 @@ git clone https://github.com/andresbelt/MuyTest.git
 
 ## Built With
 
-1. RxJava2: https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
-2. JUnit4: https://developer.android.com/training/testing/junit-rules?authuser=1
-3. Espresso: https://developer.android.com/training/testing/espresso
-4. Coroutines: https://developer.android.com/kotlin/coroutines
-5. Room: https://developer.android.com/topic/libraries/architecture/room.html
+1. JUnit4: https://developer.android.com/training/testing/junit-rules?authuser=1
+2. Espresso: https://developer.android.com/training/testing/espresso
+3. Coroutines: https://developer.android.com/kotlin/coroutines
+4. Room: https://developer.android.com/topic/libraries/architecture/room.html
 
 ## Maintainers
 
