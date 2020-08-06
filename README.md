@@ -6,7 +6,7 @@ Example android with MVVM and Retrofit with Room, architecture repository with c
 
 ## Architecture
 
-![MVVM3](https://github.com/andresbelt/ExampleZemoga/blob/master/diagram.png)
+![MVVM3](https://github.com/andresbelt/MuyTest/blob/master/diagram.png)
 
 
 ## Installation
