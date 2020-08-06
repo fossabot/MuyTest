@@ -3,7 +3,7 @@
           package="com.muy">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <applicatio
+    <application
             android:icon="@mipmap/ic_launcher"
             android:name="com.muy.App"
             android:label="@string/app_name"
@@ -19,6 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-    </applicatio>
+    </application>
 
 </manifest>

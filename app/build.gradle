@@ -60,7 +60,7 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
 
 
-    implementation "androidx.lifecycle:lifecycle-common-java8:*version*"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$archLifecycleVersion"
 
 
 

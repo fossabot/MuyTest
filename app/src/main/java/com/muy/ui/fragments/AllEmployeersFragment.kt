@@ -54,7 +54,7 @@ class AllEmployeersFragment : BaseFragment<FragmentWorkersBinding>(){
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         menu.clear()
         inflater.inflate(R.menu.menu_main, menu)
-        val searchView = SearchView((context as MainActivity).supportActionBar?.themedContext ?: context)
+        val searchView = SearchView(((context as MainActivity).supportActionBar?.themedContext ?: context)!!)
 
        val searchItem = menu.findItem(R.id.search).apply {
             setShowAsAction(MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW or MenuItem.SHOW_AS_ACTION_IF_ROOM)
