@@ -55,8 +55,7 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="11dp"
                     android:foregroundGravity="center"
-                    app:srcCompat="@drawable/ic_chevron_right"
-                    android:contentDescription="TODO" />
+                    app:srcCompat="@drawable/ic_chevron_right" />
 
                 <LinearLayout
                     android:id="@+id/newbtn"
@@ -77,13 +76,12 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                         android:layout_height="wrap_content"
 
 
-                        app:srcCompat="@android:drawable/btn_star"
-                        android:contentDescription="TODO" />
+                        app:srcCompat="@android:drawable/btn_star" />
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
-                        android:layout_height="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/new_text" />
                 </LinearLayout>
@@ -103,20 +101,32 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                 <TextView
                     android:id="@+id/wage"
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@id/title"
+
+
                     android:layout_toStartOf="@+id/newbtn"
                     android:layout_toEndOf="@id/chevron"
-                  />
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wage"
+                    android:layout_marginTop="6dp"
+                    android:layout_toStartOf="@+id/newbtn"
+                    android:layout_toEndOf="@id/chevron"
+                    android:text="TextView" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/expand_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/wage"
-                    android:visibility="gone"
-                    android:layout_marginTop="10dp"
-                    android:orientation="vertical" />
+                    android:layout_below="@+id/position"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone" />
 
 
             </RelativeLayout>

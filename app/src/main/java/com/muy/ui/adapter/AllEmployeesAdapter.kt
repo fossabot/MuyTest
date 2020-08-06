@@ -157,7 +157,7 @@ open class AllEmployeesAdapter(
         private val textViewName:TextView = view.title
         val listItemFg:View = view.list_item_fg
         private val imagenew: ImageView = view.imagenew
-
+        val position: TextView = view.position
         private val wage:TextView = view.wage
         val scaleContainer:View = view.scale_container
         val cardContainer: View = view.card_container
@@ -171,7 +171,7 @@ open class AllEmployeesAdapter(
         ){
             textViewName.text = employee.name
             wage.text =employee.wage.toString()
-
+            position.text = employee.position
             expandView.layoutManager = LinearLayoutManager(context)
             imagenew.setImageResource(android.R.drawable.btn_star_big_off)
 

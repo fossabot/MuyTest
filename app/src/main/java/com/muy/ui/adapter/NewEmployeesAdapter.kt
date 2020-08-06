@@ -133,6 +133,7 @@ open class NewEmployeesAdapter(    private val listener: (id: Int) -> Unit,
         val listItemFg:View = view.list_item_fg
         private val imagenew: ImageView = view.imagenew
 
+        private val position:TextView = view.position
         private val wage:TextView = view.wage
         val scaleContainer:View = view.scale_container
         val cardContainer: View = view.card_container
@@ -146,7 +147,7 @@ open class NewEmployeesAdapter(    private val listener: (id: Int) -> Unit,
         ){
             textViewName.text = employee.name
             wage.text =employee.wage.toString()
-
+            position.text = employee.position
             expandView.layoutManager = LinearLayoutManager(context)
             cardContainer.visibility = GONE
 

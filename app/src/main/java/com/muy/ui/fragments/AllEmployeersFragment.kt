@@ -44,7 +44,7 @@ class AllEmployeersFragment : BaseFragment<FragmentWorkersBinding>(){
         var recycler = getViewDataBinding().recyclerView
         dialog= onCreateDialog()!!
         recycler.layoutManager= LinearLayoutManager(activity)
-
+        recycler.setItemViewCacheSize(10)
         recycler.adapter= adapter
 
         recycler.setHasFixedSize(true)
