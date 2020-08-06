@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Muy</string>
+    <string name="empty_list">No employeers found!</string>
+    <string name="an_error_occurred">An error occurred</string>
+     <string name="tab_text_1">All</string>
+    <string name="tab_text_2">Favorites</string>
+    <string name="filter_title">Filter by</string>
+    <string name="wage">wage</string>
+    <string name="new_text">New</string>
+    <string name="desc">Image</string>
+
+    <string-array name="titles">
+        <item>@string/wage</item>
+    </string-array>
+</resources>

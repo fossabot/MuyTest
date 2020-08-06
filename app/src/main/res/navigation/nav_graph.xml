@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/start_dest"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/start_dest"
+        android:name="com.muy.ui.fragments.ViewPagerContainerFragment"
+        tools:layout="@layout/fragment_view_main"
+        android:label="ViewPagerContainerFragment" >
+        <action
+            android:id="@+id/action_viewPagerContainerFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" >
+
+        </action>
+    </fragment>
+
+
+    <!-- Global Action Start -->
+    <action
+        android:id="@+id/action_global_start"
+        app:destination="@id/start_dest"
+        app:popUpTo="@id/start_dest"
+        app:popUpToInclusive="true" />
+
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.muy.ui.details.DetailsFragment"
+        tools:layout="@layout/details_fragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+
+</navigation>

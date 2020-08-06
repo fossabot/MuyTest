@@ -1,0 +1,105 @@
+{
+"company_name": "los yoyos",
+"address": "Carrera 123 # 45 - 67. Oficina: 89",
+"employees":[
+    {
+      "id": 2,
+      "name": "Juanpis Gonzalez",
+      "position": "CEO",
+      "wage": 4500000000,
+      "employees": [
+        {
+          "id": 90,
+          "name": "Pepito Pérez"
+        },
+        {
+          "id": 45,
+          "name": "El capo"
+        },
+        {
+          "id": 555,
+          "name": "Carlangas"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Pepito Pérez",
+      "position": "CFO",
+      "wage": 1000,
+      "employees": [
+        {
+          "id": 754,
+          "name": "El profesor súper O"
+        },
+        {
+          "id": 9875,
+          "name": "El rano rené"
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "name": "El profesor súper O",
+      "position": "Financiero asociado",
+      "wage": 23,
+      "employees": []
+    },
+    {
+      "id": 9875,
+      "name": "El rano rené",
+      "position": "Contador",
+      "wage": 1,
+      "employees": []
+    },
+    {
+      "id": 555,
+      "name": "Carlangas",
+      "position": "CTO",
+      "wage": 123456789,
+      "employees": [
+        {
+          "id": 123354,
+          "name": "The viking"
+        },
+        {
+          "id": 1234521,
+          "name": "Il Puccino Pio"
+        }
+      ]
+    },
+    {
+      "id": 123354,
+      "name": "The viking",
+      "position": "Flutter developer",
+      "wage": 546,
+      "employees": []
+    },
+    {
+      "id": 1234521,
+      "name": "Il Puccino Pio",
+      "position": "Android developer",
+      "wage": 321,
+      "employees": []
+    },
+    {
+      "id": 45,
+      "name": "El capo",
+      "position": "CPO",
+      "wage": 852,
+      "employees": [
+        {
+          "id": 123123,
+          "name": "Nombre que hace notar que los papas no lo quisieron porque lo nombraron así"
+        }
+      ]
+    },
+    {
+      "id": 123123,
+      "name": "Nombre que hace notar que los papas no lo quisieron porque lo nombraron así",
+      "position": "Todero",
+      "wage": 963,
+      "employees": []
+    }
+  ]
+}
