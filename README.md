@@ -16,11 +16,6 @@ Clone this repository and import into **Android Studio**
 git clone https://github.com/andresbelt/MuyTest.git
 ```
 
-## Test
-
-```bash
-
-```
 
 ## Built With
 
