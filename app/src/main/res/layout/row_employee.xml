@@ -55,7 +55,8 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="11dp"
                     android:foregroundGravity="center"
-                    app:srcCompat="@drawable/ic_chevron_right" />
+                    app:srcCompat="@drawable/ic_chevron_right"
+                    android:contentDescription="TODO" />
 
                 <LinearLayout
                     android:id="@+id/newbtn"
@@ -76,12 +77,13 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                         android:layout_height="wrap_content"
 
 
-                        app:srcCompat="@android:drawable/btn_star" />
+                        app:srcCompat="@android:drawable/btn_star"
+                        android:contentDescription="TODO" />
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="@string/new_text" />
                 </LinearLayout>
@@ -101,7 +103,7 @@ too. layout_gravity="center_horizontal" is a lot simpler.
                 <TextView
                     android:id="@+id/wage"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_below="@id/title"
                     android:layout_toStartOf="@+id/newbtn"
                     android:layout_toEndOf="@id/chevron"
