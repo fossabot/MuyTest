@@ -7,6 +7,7 @@ Example android with MVVM and Retrofit with Room, architecture repository with c
 ## Architecture
 
 ![MVVM3](https://github.com/andresbelt/MuyTest/blob/master/diagram.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandresbelt%2FMuyTest.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandresbelt%2FMuyTest?ref=badge_shield)
 
 
 ## Installation
@@ -31,6 +32,9 @@ git clone https://github.com/andresbelt/MuyTest.git
 ## License
 
 This project is licensed under the MIT License 
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandresbelt%2FMuyTest.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandresbelt%2FMuyTest?ref=badge_large)
 
 ## Contributing
 
